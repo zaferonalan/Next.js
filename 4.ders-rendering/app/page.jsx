@@ -1,6 +1,7 @@
 import React from 'react'
 import BtnUI from './BtnUI'
 import InputUI from '@/components/InputUI'
+import TestClient from './TestClient'
 
 const HomePage = () => {
   console.log("HomePage")
@@ -16,6 +17,7 @@ const HomePage = () => {
       <h1>HomePage</h1>
       <BtnUI/>
       <InputUI/>
+      <TestClient/>
     </div>
   )
 }
