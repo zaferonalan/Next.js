@@ -4,7 +4,7 @@ import { FaPlayCircle } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className='bg-custom-gradient py-4 w-full' >
+    <header className='bg-custom-gradient grid-templates fluid' >
         <div className='flex items-center justify-between'>
             <Link href="/" className='flex items-center gap-2 text-[24px] font-[700] text-gray-300'>
                 <FaPlayCircle />NETFILMS

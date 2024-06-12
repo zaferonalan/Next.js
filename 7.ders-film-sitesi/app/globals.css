@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .display-webkit-box {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .grid-templates {
+      display: grid;
+      grid-template-columns: 1fr min(1440px, 94%) 1fr;
+      grid-template-rows: 96px auto 72px;
+    }
+
+    .grid-templates > * {
+      grid-column: 2;
+    }
+
+    .grid-templates > .fluid {
+      grid-column: 1 / -1;
+    }
+  }

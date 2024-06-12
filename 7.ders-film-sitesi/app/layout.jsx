@@ -8,7 +8,7 @@ const interFontFamily = Inter({ subsets: ['latin']})
 export default function RootLayout({ children }) {
   return (
     <html lang="tr" className={interFontFamily.className}>
-      <body className="bg-black text-white w-full px-4 ">
+      <body className="bg-black text-white w-full grid-templates ">
         <Header/>
         <main>{children}</main>
         <Footer/>
