@@ -23,4 +23,14 @@
     .grid-templates > .fluid {
       grid-column: 1 / -1;
     }
+    /* ! Movie Section */
+    .movie-boxShadow {
+      box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+    }
+    .movie-templates {
+      display: grid;
+      grid-template-columns:  repeat(auto-fit, minmax(180px, 1fr));
+      grid-auto-rows: 320px;
+      gap: 24px;
+    }
   }
